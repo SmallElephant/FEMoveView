@@ -15,6 +15,8 @@
 		A8F94FCE1CA0EBB7006A60FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F94FCC1CA0EBB7006A60FA /* LaunchScreen.storyboard */; };
 		A8F94FD91CA0EBB7006A60FA /* FEMoveViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F94FD81CA0EBB7006A60FA /* FEMoveViewTests.m */; };
 		A8F94FE41CA0EBB7006A60FA /* FEMoveViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F94FE31CA0EBB7006A60FA /* FEMoveViewUITests.m */; };
+		A8F94FF41CA0EC0C006A60FA /* FEMoveView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F94FF31CA0EC0C006A60FA /* FEMoveView.m */; };
+		A8F94FF51CA0EC0C006A60FA /* FEMoveView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F94FF31CA0EC0C006A60FA /* FEMoveView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		A8F94FDF1CA0EBB7006A60FA /* FEMoveViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FEMoveViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F94FE31CA0EBB7006A60FA /* FEMoveViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FEMoveViewUITests.m; sourceTree = "<group>"; };
 		A8F94FE51CA0EBB7006A60FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8F94FF21CA0EC0C006A60FA /* FEMoveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEMoveView.h; sourceTree = "<group>"; };
+		A8F94FF31CA0EC0C006A60FA /* FEMoveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FEMoveView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		A8F94FBD1CA0EBB7006A60FA /* FEMoveView */ = {
 			isa = PBXGroup;
 			children = (
+				A8F94FF11CA0EBE7006A60FA /* Move */,
 				A8F94FC11CA0EBB7006A60FA /* AppDelegate.h */,
 				A8F94FC21CA0EBB7006A60FA /* AppDelegate.m */,
 				A8F94FC41CA0EBB7006A60FA /* ViewController.h */,
@@ -138,6 +143,15 @@
 				A8F94FE51CA0EBB7006A60FA /* Info.plist */,
 			);
 			path = FEMoveViewUITests;
+			sourceTree = "<group>";
+		};
+		A8F94FF11CA0EBE7006A60FA /* Move */ = {
+			isa = PBXGroup;
+			children = (
+				A8F94FF21CA0EC0C006A60FA /* FEMoveView.h */,
+				A8F94FF31CA0EC0C006A60FA /* FEMoveView.m */,
+			);
+			path = Move;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +287,7 @@
 				A8F94FC61CA0EBB7006A60FA /* ViewController.m in Sources */,
 				A8F94FC31CA0EBB7006A60FA /* AppDelegate.m in Sources */,
 				A8F94FC01CA0EBB7006A60FA /* main.m in Sources */,
+				A8F94FF41CA0EC0C006A60FA /* FEMoveView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8F94FD91CA0EBB7006A60FA /* FEMoveViewTests.m in Sources */,
+				A8F94FF51CA0EC0C006A60FA /* FEMoveView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
